@@ -1,0 +1,59 @@
+name: FoxModeration
+version: '${version}'
+main: pl.foxmoderation.FoxModerationPlugin
+api-version: '1.21'
+authors: [DeXter]
+depend: []
+softdepend: [LuckPerms]
+commands:
+  warn:
+    aliases: [warngrimac]
+  mute:
+    aliases: [mutegrimac]
+  kick:
+    aliases: [kickgrimac]
+  ban:
+    aliases: [bangrimac]
+  unmute:
+    aliases: [unmutegrimac]
+  unban:
+    aliases: [unbangrimac]
+  check:
+    aliases: [checkgrimac]
+  checkstart:
+    aliases: [checkstartgrimac]
+  checkclear:
+    aliases: [checkcleargrimac]
+  checkcheat:
+    aliases: [checkcheatgrimac]
+  note:
+    aliases: [notegrimac]
+  importantnote:
+    aliases: [importantnotegrimac]
+  notes:
+    aliases: [notesgrimac]
+  punishment:
+  history:
+  deletepunishment:
+  checkinfo:
+  stafflog:
+  discord:
+    aliases: [dc]
+permissions:
+  foxmoderation.warn: { default: op }
+  foxmoderation.mute: { default: op }
+  foxmoderation.kick: { default: op }
+  foxmoderation.ban: { default: op }
+  foxmoderation.unmute: { default: op }
+  foxmoderation.unban: { default: op }
+  foxmoderation.check: { default: op }
+  foxmoderation.notes: { default: op }
+  foxmoderation.notesimportant: { default: op }
+  foxmoderation.punishmentinfo: { default: op }
+  foxmoderation.history: { default: op }
+  foxmoderation.deletepunishments: { default: op }
+  foxmoderation.checkinfo: { default: op }
+  foxmoderation.hovers: { default: op }
+  foxmoderation.stafflog: { default: op }
+  foxmoderation.grim: { default: op }
+  foxmoderation.bypasshierarchy: { default: false }

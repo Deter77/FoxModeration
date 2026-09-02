@@ -1,0 +1,59 @@
+messages:
+  prefix: "&8[&9FoxModeration&8] &r"
+  player-offline: "&cTen gracz jest offline!"
+  no-self-action: "&cNie możesz użyć tej komendy na sobie!"
+  hierarchy-blocked: "&cNie możesz użyć tej komendy na graczu z wyższą rangą!"
+  already-muted: "&cTen gracz ma już mute!"
+  already-banned: "&cTen gracz ma już bana!"
+  player-already-checked: "&cTen gracz jest już sprawdzany!"
+  punishment-deleted: "&aAnulowano karę #<id>."
+  invalid-punishment-type: "&cNiepoprawny typ kary!"
+  usage-duration-required: "&cJeśli wpisujesz własny opis, musisz podać czas."
+  usage-duration-forbidden: "&cDla presetu z configu nie podawaj czasu."
+  check-started: "&aRozpoczęto sprawdzanie gracza &f<player>&a."
+  check-finished: "&aZakończono sprawdzanie gracza &f<player>&a."
+  discord-command: "&9Discord: &e<discord>"
+check:
+  location:
+    world: world
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  release-location:
+    world: world
+    x: 0.0
+    y: 70.0
+    z: 0.0
+    yaw: 0.0
+    pitch: 0.0
+  discord-url: "https://discord.gg/twoj-serwer"
+  countdown-seconds: 300
+guis:
+  notes-title: "&8Notatki"
+  punishment-title: "&8Informacje o karze"
+  history-title: "&8Historia gracza"
+  checkinfo-title: "&8Aktywne kary"
+  stafflog-title: "&8Staff log"
+presets:
+  spam:
+    description: "Spam na czacie"
+    duration: "10min"
+    type: "mute"
+  reklama:
+    description: "Reklama innych serwerów"
+    duration: "7d"
+    type: "ban"
+  toxic:
+    description: "Toksyczne zachowanie"
+    duration: "30min"
+    type: "mute"
+  cheaty:
+    description: "Używanie niedozwolonych wspomagaczy"
+    duration: "30d"
+    type: "ban"
+  nocheck:
+    description: "Brak wejścia na sprawdzanie"
+    duration: "30d"
+    type: "ban"
